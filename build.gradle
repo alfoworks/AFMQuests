@@ -28,8 +28,8 @@ repositories {
 compileJava.options.encoding = "UTF-8"
 compileTestJava.options.encoding = "UTF-8"
 
-group = "ru.allformine.afmcp"
-version = "0.7"
+group = "ru.alfomine.afmquests"
+version = "1.0"
 
 dependencies {
     compile 'org.spongepowered:spongeapi:7.2.0'
@@ -42,8 +42,8 @@ dependencies {
 }
 
 jar {
-    archiveName "afmcp.jar"
-    baseName = 'afmcp'
+    archiveName "afmquests.jar"
+    baseName = 'afmquests'
     version =  version
 }
 
@@ -60,7 +60,7 @@ task copyForShared(type: Copy){
     }
 }
 
-sponge.plugin.id = "afmcp"
+sponge.plugin.id = "afmquests"
 
 apply plugin: 'net.minecraftforge.gradle.forge'
 apply plugin: 'kotlin'
